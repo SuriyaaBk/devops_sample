@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather_files/style.css">
+    <link rel="stylesheet" href="weather_files/all.min.css">
+    <title>WeatherPro - Advanced Weather Application</title>
+    <meta name="description" content="Professional weather application built with JavaScript, providing real-time weather data for cities worldwide.">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-cloud-sun"></i>
+                <span>WeatherPro</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#weather-app">Try App</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">WeatherPro Application</h1>
+                <p class="hero-subtitle">Advanced JavaScript Weather Application with Real-time Data Integration</p>
+                <p class="hero-description">
+                    A modern, responsive weather application built with vanilla JavaScript, 
+                    featuring OpenWeatherMap API integration for accurate global weather forecasts.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#weather-app" class="btn-primary">Try Application</a>
+                    <a href="#about" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="weather-animation">
+                    <i class="fas fa-sun weather-icon-float"></i>
+                    <i class="fas fa-cloud weather-icon-float"></i>
+                    <i class="fas fa-cloud-rain weather-icon-float"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Project Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title">About This Project</h2>
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3>Project Overview</h3>
+                    <p>
+                        WeatherPro is a comprehensive weather application developed using modern web technologies. 
+                        This project demonstrates advanced JavaScript programming, API integration, and responsive 
+                        web design principles.
+                    </p>
+                    <h3>Technical Implementation</h3>
+                    <ul class="tech-list">
+                        <li><strong>Frontend:</strong> HTML5, CSS3, Vanilla JavaScript</li>
+                        <li><strong>API:</strong> OpenWeatherMap API for real-time data</li>
+                        <li><strong>Design:</strong> Responsive design with modern UI/UX</li>
+                        <li><strong>Features:</strong> Error handling, dynamic content updates</li>
+                    </ul>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-code"></i>
+                        <h4>100%</h4>
+                        <p>Vanilla JavaScript</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h4>Fully</h4>
+                        <p>Responsive Design</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-globe"></i>
+                        <h4>Global</h4>
+                        <p>Weather Data</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-search"></i>
+                    <h3>City Search</h3>
+                    <p>Search for weather information in any city worldwide with intelligent error handling</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-thermometer-half"></i>
+                    <h3>Real-time Data</h3>
+                    <p>Live temperature, humidity, and wind speed data from OpenWeatherMap API</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-eye"></i>
+                    <h3>Visual Weather Icons</h3>
+                    <p>Dynamic weather icons that change based on current weather conditions</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Optimized for all devices - desktop, tablet, and mobile platforms</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <h3>Error Handling</h3>
+                    <p>Robust error handling for invalid city names and network issues</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Modern UI</h3>
+                    <p>Clean, professional interface with gradient backgrounds and smooth animations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weather App Section -->
+    <section id="weather-app" class="weather-app-section">
+        <div class="container">
+            <h2 class="section-title">Try the Weather Application</h2>
+            <p class="section-subtitle">Enter any city name to get real-time weather information</p>
+            
+            <div class="card">
+                <div class="search">
+                    <input type="text" placeholder="Enter A City">
+                    <button><img src="weather_files/search.png"></button>
+                </div>
+                <div class="error">
+                    <h5>Invalid City Name</h5>
+                </div>
+                <div class="weather">
+                    <img src="weather_files/clouds.png" class="weather-icon">
+                    <h1 class="temp">20°C</h1>
+                    <h2 class="city">Bengaluru</h2>
+                    <div class="details">
+                        <div class="col1">
+                            <img src="weather_files/humidity.png">
+                            <div>
+                                <p class="humidity">50%</p>
+                                <p>Humidity</p>
+                            </div>
+                        </div>
+                        <div class="col1">
+                            <img src="weather_files/wind.png">
+                            <div>
+                                <p class="wind">50 km/hr</p>
+                                <p>Wind</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Stack Section -->
+    <section class="tech-section">
+        <div class="container">
+            <h2 class="section-title">Technology Stack</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <i class="fab fa-html5"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fab fa-js-square"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="tech-item">
+                    <i class="fas fa-cloud"></i>
+                    <span>Weather API</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-description">
+                Interested in this project or want to collaborate? Feel free to reach out!
+            </p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>santheesh24@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>github.com/Santheesh-s</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>linkedin.com/in/santheesh-s</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-cloud-sun"></i>
+                    <span>WeatherPro</span>
+                </div>
+                <p>© 2024 WeatherPro Application. Built with JavaScript &amp; OpenWeatherMap API.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const apiKey = "a0c84eb2315a00bba54bad51116dd9b7";
+        const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
+        const searchBox = document.querySelector(".search input");
+        const searchBtn = document.querySelector(".search button");
+        const weatherIcon = document.querySelector(".weather-icon");
+
+        async function checkWeather(city) {
+            const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
+            var data = await response.json();
+
+            if(response.status == 404 ){
+                document.querySelector(".error").style.display = "block";
+                document.querySelector(".weather").style.display = "none";
+            }
+            else{
+                document.querySelector(".city").innerHTML = data.name;
+                document.querySelector(".temp").innerHTML = Math.round(data.main.temp) + "°C";
+                document.querySelector(".humidity").innerHTML = data.main.humidity + "%";
+                document.querySelector(".wind").innerHTML = data.wind.speed + " Km/hr";
+
+                if(data.weather[0].main == 'Clouds'){
+                    weatherIcon.src = "images/clouds.png"
+                }
+                else if(data.weather[0].main == 'Clear'){
+                    weatherIcon.src = "images/clear.png"
+                }
+                else if(data.weather[0].main == 'Rain'){
+                    weatherIcon.src = "images/rain.png"
+                }
+                else if(data.weather[0].main == 'Drizzler'){
+                    weatherIcon.src = "images/drizzle.png"
+                }
+                else if(data.weather[0].main == 'Mist'){
+                    weatherIcon.src = "images/mist.png"
+                }
+
+                document.querySelector(".weather").style.display = "block"
+                document.querySelector(".error").style.display = "none";
+            }
+        }
+
+        searchBtn.addEventListener("click", ()=>{
+            checkWeather(searchBox.value);
+        })
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+    </script>
+
+</body></html>
