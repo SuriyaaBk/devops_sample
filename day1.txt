@@ -1,0 +1,185 @@
+    1  sudo passwd root
+    2  su
+    3  sudo i
+    4  sudo -u
+    5  sudo su
+    6  sudo -i
+    7  sudo su
+    8  su
+    9  su
+   10  sudo apt update
+   11  sudo apt upgrade
+   12  ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2
+   13  Get:294 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2 [28.3 kB]
+   14  Get:295 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk2-engines-pixbuf amd64 2.24.32-4ubuntu4.1 [23.3 kB]
+   15  Ign:296 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 printer-driver-postscript-hp amd64 3.20.3+dfsg0-2ubuntu0.1
+   16  ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2
+   17  Get:294 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2 [28.3 kB]
+   18  Get:295 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk2-engines-pixbuf amd64 2.24.32-4ubuntu4.1 [23.3 kB]
+   19  Ign:296 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 printer-driver-postscript-hp amd64 3.20.3+dfsg0-2ubuntu0.1
+   20  ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2
+   21  Get:294 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2 [28.3 kB]
+   22  Get:295 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk2-engines-pixbuf amd64 2.24.32-4ubuntu4.1 [23.3 kB]
+   23  Ign:296 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 printer-driver-postscript-hp amd64 3.20.3+dfsg0-2ubuntu0.1
+   24  ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2
+   25  Get:294 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2 [28.3 kB]
+   26  Get:295 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk2-engines-pixbuf amd64 2.24.32-4ubuntu4.1 [23.3 kB]
+   27  Ign:296 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 printer-driver-postscript-hp amd64 3.20.3+dfsg0-2ubuntu0.1
+   28  ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2
+   29  Get:294 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2 [28.3 kB]
+   30  Get:295 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk2-engines-pixbuf amd64 2.24.32-4ubuntu4.1 [23.3 kB]
+   31  Ign:296 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 printer-driver-postscript-hp amd64 3.20.3+dfsg0-2ubuntu0.1
+   32  ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2
+   33  Get:294 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2 [28.3 kB]
+   34  Get:295 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk2-engines-pixbuf amd64 2.24.32-4ubuntu4.1 [23.3 kB]
+   35  Ign:296 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 printer-driver-postscript-hp amd64 3.20.3+dfsg0-2ubuntu0.1
+   36  ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2
+   37  Get:294 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2 [28.3 kB]
+   38  Get:295 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk2-engines-pixbuf amd64 2.24.32-4ubuntu4.1 [23.3 kB]
+   39  Ign:296 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 printer-driver-postscript-hp amd64 3.20.3+dfsg0-2ubuntu0.1
+   40  ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2
+   41  Get:294 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2 [28.3 kB]
+   42  Get:295 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk2-engines-pixbuf amd64 2.24.32-4ubuntu4.1 [23.3 kB]
+   43  Ign:296 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 printer-driver-postscript-hp amd64 3.20.3+dfsg0-2ubuntu0.1
+   44  ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2
+   45  Get:294 http://security.ubuntu.com/ubuntu focal-updates/main amd64 gtk-update-icon-cache amd64 3.24.20-0ubuntu1.2 [28.3 kB]
+   46  Get:295 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 gtk2-engines-pixbuf amd64 2.24.32-4ubuntu4.1 [23.3 kB]
+   47  Ign:296 http://in.archive.ubuntu.com/ubuntu focal-updates/main amd64 printer-driver-postscript-hp amd64 3.20.3+dfsg0-2ubuntu0.1
+   48  sudo su
+   49  exit
+   50  su -123
+   51  su -
+   52  su kongu 123
+   53  su kongu
+   54  sudo i
+   55  sudo -i
+   56  su
+   57  sudo -i
+   58  ifconfig
+   59  ipaddr show
+   60  ip a
+   61  clear
+   62  su
+   63  clear
+   64  cls
+   65  clear
+   66  show
+   67  cd show
+   68  clear
+   69  chown
+   70  chown --help
+   71  pwd
+   72  clear
+   73  sudo -i
+   74  ls
+   75  cd Downloads/
+   76  clear
+   77  ls
+   78  pwd
+   79  mkdir santheesh
+   80  ls
+   81  ls -l
+   82  \\\; \\
+   83  ls
+   84  clear
+   85  cd santheesh/
+   86  touch santhu.txt
+   87  nano santhu.txt 
+   88  cat santhu.txt
+   89  clear
+   90  ls
+   91  cat santhu.txt
+   92  clear
+   93  history
+   94  clea
+   95  clear
+   96  less
+   97  ls
+   98  less santhu.txt 
+   99  clear
+  100  ip -a
+  101  ip a
+  102  sudo apt update
+  103  sudo apt upgrade
+  104  sudo systemctl
+  105  sudo systemctl status
+  106  sudo apt install openssh
+  107  apt install openssh
+  108  sudo apt install openssh-server -y
+  109  sudo systemctl status shh
+  110  sudo systemctl status ssh
+  111  sudo systemctl enable ssh
+  112  sudo systemctl status ssh
+  113  ifconfig
+  114  sudo apt install ifconfig
+  115  ipconfig
+  116  ip a
+  117  ip addr show
+  118  sudo apt install ipconfig
+  119  sudo apt install ifconfig
+  120  sudo apt install net-tools
+  121  ifconfig
+  122  sudo dhclient -v eno1
+  123  ip route
+  124  cd Downloads/
+  125  git
+  126  cd santheesh/
+  127  cd project/
+  128  clear
+  129  echo "# Devops">>README.md
+  130  ls
+  131  git init
+  132  git add .
+  133  git commit -m "first commit"
+  134  git config --global user.email "santheesh24@gmail.com"
+  135  git config --global user.name "santheesh"
+  136  git commit -m "first commit"
+  137  git status
+  138  git branch -M main
+  139  git remote add origin https://github.com/Santheesh-s/Devops.git
+  140  git push -u origin main
+  141  git clone https://github.com/Santheesh-s/Devops.git
+  142  git push -u origin main
+  143  git config --global user.name "santheesh"
+  144  git config --global user.name "santheesh-S"
+  145  git config --global user.name "santheesh-s"
+  146  git push -u origin main
+  147  git config --global --unset credential.helper
+  148  rm -f ~/.git-credentials
+  149  git push -u origin main
+  150  sudo apt remove git
+  151  sudo apt install git
+  152  clear
+  153  git config --global user.name "santheesh-s"
+  154  git config --global user.email "santheesh24@gmail.com"
+  155  git config --list
+  156  ssh-keygen -t ed25519 -C "santheesh-s@github"
+  157  eval "$(ssh-agent -s)"
+  158  ssh-add ~/.ssh/id_ed25519
+  159  cat ~/.ssh/id_ed25519.pub
+  160  clear
+  161  git push -u origin main
+  162  # 1. Generate SSH key (skip passphrase)
+  163  ssh-keygen -t ed25519 -C "santheesh-s@github" -f ~/.ssh/id_ed25519 -N ""
+  164  # 1. Generate SSH key (skip passphrase)
+  165  ssh-keygen -t ed25519 -C "santheesh-s@github" -f ~/.ssh/id_ed25519 -N ""
+  166  cat ~/.ssh/id_ed25519.pub
+  167  git push -u origin main
+  168  eval "$(ssh-agent -s)"
+  169  ssh-add ~/.ssh/id_ed25519
+  170  cat ~/.ssh/id_ed25519.pub
+  171  git remote set-url origin git@github.com:Santheesh-s/Devops.git
+  172  git push -u origin main
+  173  ssh -T git@github.com
+  174  git push -u origin main
+  175  LS
+  176  ls
+  177  git add .
+  178  git push -u origin main
+  179  ls
+  180  git add .
+  181  git push -u origin main
+  182  git pull --rebase origin main
+  183  git push -u origin main
+  184  ls
+  185  history > santhu.txt 
